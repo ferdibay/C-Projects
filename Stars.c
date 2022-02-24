@@ -89,7 +89,7 @@ int main(){
     printf("Dikdortgenin enini girin:");
     scanf("%d",&en);
 
-    printf("Dikdorgenin boyunu girin:");
+    printf("Dikdortgenin boyunu girin:");
     scanf("%d",&boy);
 
     for (i=1;i<=boy;i++)
