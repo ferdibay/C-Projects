@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+
 int main() {
     int i,j;
 
@@ -12,9 +12,9 @@ int main() {
     }
     return 0;
 }
-*/
 
-/*
+
+
 int main(){
 
     int i,j;
@@ -31,9 +31,9 @@ int main(){
 
     return 0;
 }
-*/
 
-/*
+
+
 int main(){
 
     int i,j;
@@ -49,9 +49,9 @@ int main(){
 
     return 0;
 }
- */
+ 
 
-/*
+
 int main(){
 
     int i,j;
@@ -77,11 +77,11 @@ int main(){
 
     return 0;
 }
-*/
+
 
 //Klavyeden girilen en ve boy değerlerine göre dikdörtgen oluşturma
 
-/*
+
 int main(){
 
     int en,boy,i,j;
@@ -103,11 +103,11 @@ int main(){
 
     return 0;
 }
-*/
+
 
 //Klavyeden girilen değerlerle dik üçgen oluşturma
 
-/*
+
 int main(){
 
     int boy,i,j;
@@ -127,9 +127,9 @@ int main(){
 
     return 0;
 }
- */
+ 
 
-/*
+
 int main(){
 
     int boy,i,j;
@@ -148,4 +148,4 @@ int main(){
 
     return 0;
 }
- */
+ 
