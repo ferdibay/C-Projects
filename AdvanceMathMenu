@@ -34,6 +34,8 @@ int main() {
 
     printf("Matematik menusune hosgeldiniz!\n");
     printf("1-Toplama\n2-Carpma\n3-Us alma\n4-Kok alma\n");
+
+    secimMenu:
     printf("Lutfen yapmak istediginiz islemi secin:");
     scanf("%d",&secim);
 
@@ -47,7 +49,7 @@ int main() {
         printf("girilen sayilarin toplami:%d", topla(s1,s2));
     }
 
-    if (secim==2)
+    else if (secim==2)
     {
         printf("sayi1 girin:");
         scanf("%d",&s1);
@@ -57,7 +59,7 @@ int main() {
         printf("girilen sayilarin carpimi:%d", carp(s1,s2));
     }
 
-    if (secim==3)
+    else if (secim==3)
     {
         printf("sayi1 girin:");
         scanf("%d",&s1);
@@ -67,14 +69,18 @@ int main() {
         printf("%d ussu %d: %d",s1,s2,usAl(s1,s2));
     }
 
-    if (secim==4)
+    else if (secim==4)
     {
         printf("Bir tamsayi girin:");
         scanf("%d",&s1);
 
         printf("girilen sayinin karekoku:%d", kokAl(s1));
     }
-
+    else
+    {
+        printf("Yanlis secimyaptiniz!\n");
+        goto secimMenu;
+    }
 
     return 0;
 
