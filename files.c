@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
-int fact(int num);
-double rand_double();
-int sample_geometric_rv(double p);
-
 int main(){
     
     FILE *dosya=fopen("odev_c.txt","r");
@@ -53,31 +48,4 @@ int main(){
     fclose(dosya2);
 
     return 0;
-}
-
-
-int fact(int num){
-    int i=1,ret=1;
-
-    while(i<=num){
-        ret *=i;
-        i++;
-    }
-    return ret;
-}
-
-double rand_double(){
-    double ret =(double)rand();
-    return ret / (RAND_MAX +1);
-}
-
-int sample_geometric_rv(double p){
-    double q;
-    int n=0;
-
-    while(q>=p){                        
-        q=rand_double();
-        n++;
-    }
-    return n;
 }
